@@ -1,1 +1,7 @@
+ALTER TABLE Student
+ADD COLUMN Email VARCHAR(30);
 
+ALTER TABLE Student
+ADD COLUMN PhoneNumber VARCHAR(15);
+
+DESC Student;
